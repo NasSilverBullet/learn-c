@@ -35,11 +35,11 @@ int main(void) {
   int i;
   person ps[3];
 
-  for (i = 0; i < sizeof(ps) / sizeof(ps[0]); i++) {
+  for (i = 0; i < sizeof(ps) / sizeof(person); i++) {
     scan_person(&ps[i]);
   }
 
-  for (i = 0; i < sizeof(ps) / sizeof(ps[0]); i++) {
+  for (i = 0; i < sizeof(ps) / sizeof(person); i++) {
     print_person(&ps[i]);
   }
 
