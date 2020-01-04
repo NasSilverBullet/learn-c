@@ -1,4 +1,5 @@
 #include "stdio.h"
+
 int main() {
   char *arr1[] = {"hoge", "huga", "piyopiyo", "sasaki",
                   "hogehogheohgoehohgoehohgoehogheoghoehgoehgoeh"};

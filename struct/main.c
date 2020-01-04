@@ -33,6 +33,7 @@ void print_person(person* p) {
 
 int main(void) {
   int i;
+
   person ps[3];
 
   for (i = 0; i < sizeof(ps) / sizeof(person); i++) {
